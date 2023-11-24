@@ -1,0 +1,31 @@
+{
+  "object": "whatsapp_business_account",
+  "entry": [{
+      "id": "WHATSAPP_BUSINESS_ACCOUNT_ID",
+      "changes": [{
+          "value": {
+              "messaging_product": "whatsapp",
+              "metadata": {
+                  "display_phone_number": "919823204708",
+                  "phone_number_id": "159600670572325"
+              },
+              "contacts": [{
+                  "profile": {
+                    "name": "NAME"
+                  },
+                  "wa_id": "919823204708"
+                }],
+              "messages": [{
+                  "from": "919823204708",
+                  "id": "wamid.ID",
+                  "timestamp": "99844949",
+                  "text": {
+                    "body": "hello bacchi"
+                  },
+                  "type": "text"
+                }]
+          },
+          "field": "messages"
+        }]
+  }]
+}
