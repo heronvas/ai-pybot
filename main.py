@@ -42,6 +42,7 @@ def read_messade(request: Request):
     token = json_body["hub.verify_token"]
 
     print(mode)
+    print(token)
 
 
     if(mode == "subscribe" and token == my_token):
