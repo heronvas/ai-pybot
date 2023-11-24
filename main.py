@@ -47,7 +47,7 @@ def read_messade(request: Request):
 
     if(mode == "subscribe" and token == my_token):
         print(challenge)
-        return challenge
+        return int(challenge)
     else:
         raise HTTPException(status_code=403, detail="Item not found")
     
