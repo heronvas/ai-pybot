@@ -34,6 +34,7 @@ the recepient and other details refer the payload.jsonl for the same
 '''
 @app.get("/webhook") 
 async def read_messade(request: Request):
+    print("mode")
     json_body = await request.json()
 
     mode = json_body["hub.mode"]
